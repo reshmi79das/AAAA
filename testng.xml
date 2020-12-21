@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name=" DataProviderConceptTest">
+    <classes>
+      <class name="testNgConcept.TC0011_DataProviderConcept"/>
+      </classes>
+      </test>
+      
+       <test name="InvocationCount Test">
+    <classes>
+      <class name="testNgConcept.TC0010_InvocationCount"/>
+      </classes>
+      </test>
+      
+       <test name="DisplayMessage Test">
+    <classes>
+      <class name="testNgConcept.TC001_DisplayMessage"/>
+      </classes>
+      </test>
+     
+</suite> <!-- Suite -->

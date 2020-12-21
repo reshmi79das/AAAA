@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+
+  <test  name="TC002_Testcasespriority">
+    <classes>
+      <class name="parallelexecution.TC002_Testcasespriority"/>
+      </classes>
+      </test>
+      
+       <test  name="TC005_LoginSurveyMonkeyApplication">
+    <classes>
+      <class name="parallelexecution.TC005_LoginSurveyMonkeyApplication"/>
+      </classes>
+      </test>
+      
+       <test  name="TC0010_InvocationCount">
+    <classes>
+      <class name="parallelexecution.TC0010_InvocationCount"/>
+      </classes>
+      </test>
+      
+       <test  name="TC008_LoginTest">
+    <classes>
+      <class name="parallelexecution.TC008_LoginTest"/>
+      </classes>
+      </test>
+     
+</suite> <!-- Suite -->

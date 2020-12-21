@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+  <test name="TC001_DisplayMessage">
+    <classes>
+      <class name="regressionSuite.TC001_DisplayMessage"/>
+      </classes>
+      </test>
+      
+       <test name="TC0011_DataProviderConcept">
+    <classes>
+      <class name="regressionSuite.TC0011_DataProviderConcept"/>
+      </classes>
+      </test>
+      
+       <test name="TC0010_InvocationCount">
+    <classes>
+      <class name="regressionSuite.TC0010_InvocationCount"/>
+      </classes>
+      </test>
+     
+</suite> <!-- RegressionSuite -->

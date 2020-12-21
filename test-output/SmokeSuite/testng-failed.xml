@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite]">
+  <listeners>
+    <listener class-name="listener.listenerUtils"/>
+  </listeners>
+  <test thread-count="5" name="TC003_dependsOnMethod(failed)">
+    <classes>
+      <class name="smokeSuite.TC003_dependsOnMethod">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- smokeSuite.TC003_dependsOnMethod -->
+    </classes>
+  </test> <!-- TC003_dependsOnMethod(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite">
+  <test  name="TC003_dependsOnMethod">
+    <classes>
+      <class name="smokeSuite.TC003_dependsOnMethod"/>
+      </classes>
+      </test>
+      
+       <test  name="TC004_Annotation">
+    <classes>
+      <class name="smokeSuite.TC004_Annotation"/>
+      </classes>
+      </test>
+      
+       <test  name="TC005_LoginSurveyMonkeyApplication">
+    <classes>
+      <class name="smokeSuite.TC005_LoginSurveyMonkeyApplication"/>
+      </classes>
+      </test>
+     
+</suite> <!-- SmokeSuite -->
